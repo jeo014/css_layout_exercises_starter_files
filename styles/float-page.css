@@ -3,6 +3,20 @@ body {
   color: white;
 }
 
+#nebula1 {
+	float: left;
+	margin: 10px;
+	height: 300px;
+	width: 300px;
+}
+
+#nebula2 {
+	float: right;
+	margin: 10px;
+	height: 300px;
+	width: 300px;
+}
+
 main {
   padding-left: 90px;
   padding-right: 90px;
