@@ -1,1 +1,44 @@
+#background {
+	width: 100%;
+	background-repeat: repeat-y;
+}
+
+nav {
+	background-color: gray;
+	padding-left: 60px;
+	padding-right: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+nav img {
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+#cat {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+
+}
+
+#dog {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
 
