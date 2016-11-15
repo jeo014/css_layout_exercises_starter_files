@@ -1,14 +1,10 @@
-#background {
-	width: 100%;
-	background-repeat: repeat-y;
-}
-
 nav {
 	background-color: gray;
 	padding-left: 60px;
 	padding-right: 60px;
 	position: fixed;
 	width: 100%;
+	height: 120px;
 }
 
 nav img {
@@ -22,6 +18,7 @@ nav img {
 
 nav ul {
 	display: inline-block;
+	position: absolute;
 }
 
 nav li {
@@ -30,11 +27,22 @@ nav li {
 	vertical-align: middle;
 }
 
+.box {
+	height: 300px;
+	width: 600px;
+}
+
+#background {
+	width: 100%;
+	background-repeat: repeat-y;
+	position: static;
+}
+
 #cat {
 	height: 200px;
 	width: 200px;
 	position: absolute;
-	top: 90px;
+	top: 180px;
 	left: 90px;
 
 }
@@ -43,7 +51,7 @@ nav li {
 	height: 200px;
 	width: 200px;
 	position: absolute;
-	bottom: 120px;
+	bottom: 60px;
 	right: 60px;
 }
 
