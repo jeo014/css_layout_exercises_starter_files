@@ -30,12 +30,12 @@ nav li {
 .box {
 	height: 300px;
 	width: 600px;
+	position: relative;
 }
 
 #background {
 	width: 100%;
 	background-repeat: repeat-y;
-	position: static;
 }
 
 #cat {
