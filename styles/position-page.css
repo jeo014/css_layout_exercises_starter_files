@@ -27,12 +27,15 @@ nav ul {
 nav li {
 	list-style: none;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 #cat {
 	height: 200px;
 	width: 200px;
 	position: absolute;
+	top: 90px;
+	left: 90px;
 
 }
 
@@ -40,5 +43,7 @@ nav li {
 	height: 200px;
 	width: 200px;
 	position: absolute;
+	bottom: 120px;
+	right: 60px;
 }
 
